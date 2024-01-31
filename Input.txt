@@ -1,0 +1,8 @@
+index search leads to a stub file containing details of the desired resource, including its
+GUID and the URL of a tracker – a host that holds an up-to-date list of network
+addresses for providers willing to supply the file (see Chapter 20 for more details of the
+BitTorrent protocol).
+The foregoing description of routing overlays will probably have raised questions
+in the reader’s mind about their performance and reliability. Answers to these questions
+will emerge from the descriptions of practical routing overlay systems in the next
+section.
