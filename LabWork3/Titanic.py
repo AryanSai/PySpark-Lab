@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import mean,col,avg,when,floor, count,sum
+import scipy.stats as stats
 
 # spark session
 spark =SparkSession.builder.appName("Titanic").master("local").getOrCreate()
@@ -63,6 +64,22 @@ survival_rates.show()
 # 7."A passenger from first class is more likely to sucummb then the passenger from 3rd Class"
 #     Prove or disprove the hypothesis with the data and 95% of confidence.
 print("\n7.A passenger from first class is more likely to sucummb than the passenger from 3rd Class Prove or disprove the hypothesis with the data and 95 percent of confidence.")
+first_class_survived = df.filter((col('Pclass') == 1) & (col('survived') == 1)).count()
+first_class_total = df.filter(col('Pclass') == 1).count()
+third_class_survived = df.filter((col('Pclass') == 3) & (col('survived') == 1)).count()
+third_class_total = df.filter(col('Pclass') == 3).count()
+
+frequencies = [[first_class_survived, first_class_total - first_class_survived],
+                        [third_class_survived, third_class_total - third_class_survived]]
+
+chi2_stat, p_value, _, _ = stats.chi2_contingency(frequencies)
+
+if p_value < 0.05:
+    print("With 95% confidence, we reject the null hypothesis.")
+    print("There is a significant difference in survival rates between passengers from the first class and passengers from the third class.")
+else:
+    print("With 95% confidence, we fail to reject the null hypothesis.")
+    print("There is no significant difference in survival rates between passengers from the first class and passengers from the third class.")
 
 
 # 8.Which passenger group has the highest survival rate based on the age 

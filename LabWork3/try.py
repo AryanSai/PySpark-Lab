@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import mean,col,avg,when,floor,count,sum
+from pyspark.sql.functions import col
 
 # spark session
 spark =SparkSession.builder.appName("WordCount").master("local").getOrCreate()
