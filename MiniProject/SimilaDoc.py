@@ -1,3 +1,7 @@
+# This is a Python application called "SimilaDoc" designed 
+# to analyze the similarity between two text documents using MinHashLSH algorithm
+# Written by Aryan Sai Arvapelly and M. Sai Gopal
+
 import tkinter as tk
 from tkinter import filedialog
 from pyspark.sql import SparkSession
@@ -36,7 +40,7 @@ def upload_file(label, file_var):
         label.config(text="Selected File {}".format(filename))
         with open(filename, 'r') as file:
             contents = file.read()
-            print("Contents of File : \n{}".format(contents))
+            # print("Contents of File : \n{}".format(contents))
             file_var.set(contents)
     else:
         label.config(text="No file selected")

@@ -1,1 +1,288 @@
-sairam everyone
+
+Search
+Write
+
+Aryan Sai
+
+Member-only story
+
+Locality Sensitive Hashing
+An effective way of reducing the dimensionality of your data
+Shikhar Gupta
+Towards Data Science
+Shikhar Gupta
+
+·
+Follow
+
+Published in
+Towards Data Science
+
+·
+9 min read
+·
+Jun 29, 2018
+1.8K
+
+
+17
+
+
+
+
+
+
+Motivation
+The task of finding nearest neighbours is very common. You can think of applications like finding duplicate or similar documents, audio/video search. Although using brute force to check for all possible combinations will give you the exact nearest neighbour but it’s not scalable at all. Approximate algorithms to accomplish this task has been an area of active research. Although these algorithms don’t guarantee to give you the exact answer, more often than not they’ll be provide a good approximation. These algorithms are faster and scalable.
+
+Locality sensitive hashing (LSH) is one such algorithm. LSH has many applications, including:
+
+Near-duplicate detection: LSH is commonly used to deduplicate large quantities of documents, webpages, and other files.
+Genome-wide association study: Biologists often use LSH to identify similar gene expressions in genome databases.
+Large-scale image search: Google used LSH along with PageRank to build their image search technology VisualRank.
+Audio/video fingerprinting: In multimedia technologies, LSH is widely used as a fingerprinting technique A/V data.
+1.8K
+
+
+17
+
+
+
+
+Shikhar Gupta
+Towards Data Science
+Written by Shikhar Gupta
+651 Followers
+·
+Writer for 
+Towards Data Science
+
+Applied scientist @Amazon, USF MSDS & IIT Roorkee alumunus (Twitter:@shik1470)
+
+Follow
+
+More from Shikhar Gupta and Towards Data Science
+How (dis)similar are my train and test data?
+Shikhar Gupta
+Shikhar Gupta
+
+in
+
+Towards Data Science
+
+How (dis)similar are my train and test data?
+Understanding a scenario where your machine learning model can fail
+
+·
+7 min read
+·
+May 13, 2018
+--
+
+11
+
+
+
+Intro to LLM Agents with Langchain: When RAG is Not Enough
+Alex Honchar
+Alex Honchar
+
+in
+
+Towards Data Science
+
+Intro to LLM Agents with Langchain: When RAG is Not Enough
+First-order principles of brain structure for AI assistants
+7 min read
+·
+Mar 15, 2024
+--
+
+8
+
+
+
+The Math Behind Neural Networks
+Cristian Leo
+Cristian Leo
+
+in
+
+Towards Data Science
+
+The Math Behind Neural Networks
+Dive into Neural Networks, the backbone of modern AI, understand its mathematics, implement it from scratch, and explore its applications
+28 min read
+·
+4 days ago
+--
+
+9
+
+
+
+Collaborative Filtering and Embeddings — Part 1
+Shikhar Gupta
+Shikhar Gupta
+
+in
+
+Towards Data Science
+
+Collaborative Filtering and Embeddings — Part 1
+Recommendation systems are all around us. From Netflix to Amazon to even Medium, everyone is trying to understand our taste so that they…
+
+·
+7 min read
+·
+Dec 29, 2017
+--
+
+7
+
+
+
+See all from Shikhar Gupta
+See all from Towards Data Science
+Recommended from Medium
+Multiple Negative Ranking Loss (MNRL) Explained
+AI SageScribe
+AI SageScribe
+
+Multiple Negative Ranking Loss (MNRL) Explained
+Multiple Negative Ranking Loss (MNRL) stands out in its approach to enhancing the learning process, especially in fields like information…
+
+·
+2 min read
+·
+Jan 8, 2024
+--
+
+
+
+Featured image for blog from istock
+Haziqa
+Haziqa
+
+in
+
+DataDrivenInvestor
+
+An Exhaustive List Of Distance Metrics For Vector Similarity Search
+A comprehensive compilation of various distance metrics and their contribution to vector similarity search
+10 min read
+·
+Dec 26, 2023
+--
+
+
+
+Lists
+
+
+
+Predictive Modeling w/ Python
+20 stories
+·
+1057 saves
+Principal Component Analysis for ML
+Time Series Analysis
+deep learning cheatsheet for beginner
+Practical Guides to Machine Learning
+10 stories
+·
+1264 saves
+
+
+
+Coding & Development
+11 stories
+·
+538 saves
+
+
+
+ChatGPT prompts
+47 stories
+·
+1359 saves
+Vector Search For AI — Part 1 — Vector Similarity Search Algorithms
+Serkan Özal
+Serkan Özal
+
+Vector Search For AI — Part 1 — Vector Similarity Search Algorithms
+Data is key in the fast-evolving field of Artificial Intelligence (AI). Vector similarity search methods and vector databases are crucial…
+10 min read
+·
+Oct 16, 2023
+--
+
+
+
+Measuring Embedding Drift
+Aparna Dhinakaran
+Aparna Dhinakaran
+
+in
+
+Towards Data Science
+
+Measuring Embedding Drift
+Approaches for measuring embedding/vector drift for unstructured data, including for computer vision and natural language processing models
+9 min read
+·
+Dec 8, 2022
+--
+
+4
+
+
+
+Efficient Vector Search with Amazon OpenSearch
+Maram
+Maram
+
+in
+
+TrackIt
+
+Efficient Vector Search with Amazon OpenSearch
+An introduction to vector engines and how they enhance the serverless experience of Amazon OpenSearch.
+7 min read
+·
+Nov 6, 2023
+--
+
+
+
+Text Similarity Implementation using BERT Embedding in Python
+Ahmed Mellit
+Ahmed Mellit
+
+Text Similarity Implementation using BERT Embedding in Python
+Unlocking the Power of BERT and Cosine Similarity: Enhancing Text Similarity Analysis
+5 min read
+·
+Nov 9, 2023
+--
+
+
+
+See more recommendations
+Help
+
+Status
+
+About
+
+Careers
+
+Blog
+
+Privacy
+
+Terms
+
+Text to speech
+
+Teams
